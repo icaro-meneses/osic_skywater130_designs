@@ -36,6 +36,7 @@ spice_ignore=false}
 C {devices/code_shown.sym} 240 -630 0 0 {name=NGSPICE
 only_toplevel=true
 value="
+.include /foss/designs/osic_skywater130_designs/inverter/inverter.pex.spice
 .option savecurrents
 
 .control
