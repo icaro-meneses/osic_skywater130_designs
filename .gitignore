@@ -7,3 +7,43 @@
 *.sym~
 *.bak
 
+# ---------------------------------------------------------
+# OpenLane: ignore all run directories and outputs
+# ---------------------------------------------------------
+
+# Default runs directory
+runs/
+
+# Old-style directories (OpenLane v1)
+*/runs/
+*/reports/
+*/results/
+*/logs/
+
+# Intermediate artifacts
+*.log
+*.rpt
+*.sdf
+*.spef
+*.vcd
+
+# Temp and build directories
+tmp/
+temp/
+build/
+
+# ---------------------------------------------------------
+# Icarus Verilog
+# ---------------------------------------------------------
+
+# Bytecode & executáveis
+*.vvp
+
+# Waveform dumps
+*.vcd
+*.fst
+
+# Simulation logs
+*.log
+*.lxt
+*.lxt2
